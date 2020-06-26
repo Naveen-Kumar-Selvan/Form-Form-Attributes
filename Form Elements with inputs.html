@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form Element </title>
+</head>
+
+<body>
+
+<h1> Registration Form </h1>
+
+<form action="Form_Registration.docx" target="_blank" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required ><br>
+  
+  <label for="phone">Phone Number :</label><br>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+ 
+  <h3> Choice of Course: </h3>
+   <input type="radio" id="bachelors" name="Degree" value="Bachelors">
+  <label for="bachelors">Bachelors</label><br>
+   <input type="radio" id="masters" name="degree" value="Masters">
+  <label for="masters">Masters</label><br>
+  
+  <h3> Description </h3>
+  <textarea name="message" rows="10" cols="35">
+  </textarea><br>
+  
+   <h3> Subject Interests: </h3>
+ <input type="checkbox" id="subject" name="subject interest" value="Machine Design">
+  <label for="subject"> Machine Design </label><br>
+  <input type="checkbox" id="subject" name="subject interest" value="Engineering Mechanics">
+  <label for="subject"> Engineering Mechanics</label><br>
+   <input type="checkbox" id="subject" name="subject interest" value="Thermal Engineering">
+  <label for="subject"> Thermal Engineering</label><br>
+   <input type="checkbox" id="subject" name="subject interest" value=" Material Science ">
+  <label for="subject"> Material Science</label><br>
+   <input type="checkbox" id="subject" name="subject interest" value="Strength of Materials">
+  <label for="subject"> Strength of Materials</label><br>
+  
+   <input type="submit" value="Submit">
+   
+   </form>
+   </body>
+   </html>
